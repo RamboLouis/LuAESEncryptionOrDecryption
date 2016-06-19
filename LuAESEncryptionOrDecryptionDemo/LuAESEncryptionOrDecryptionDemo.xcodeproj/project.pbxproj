@@ -13,6 +13,7 @@
 		F5E4A4FB1D16F97700F63762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E4A4F91D16F97700F63762 /* Main.storyboard */; };
 		F5E4A4FD1D16F97700F63762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E4A4FC1D16F97700F63762 /* Assets.xcassets */; };
 		F5E4A5001D16F97700F63762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E4A4FE1D16F97700F63762 /* LaunchScreen.storyboard */; };
+		F5E4A5081D16FAD900F63762 /* 蝙蝠侠大战超人.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F5E4A5071D16FAD900F63762 /* 蝙蝠侠大战超人.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F5E4A4FC1D16F97700F63762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5E4A4FF1D16F97700F63762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5E4A5011D16F97700F63762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E4A5071D16FAD900F63762 /* 蝙蝠侠大战超人.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "蝙蝠侠大战超人.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		F5E4A4EF1D16F97700F63762 /* LuAESEncryptionOrDecryptionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F5E4A5071D16FAD900F63762 /* 蝙蝠侠大战超人.mp4 */,
 				F5E4A4F31D16F97700F63762 /* AppDelegate.h */,
 				F5E4A4F41D16F97700F63762 /* AppDelegate.m */,
 				F5E4A4F61D16F97700F63762 /* ViewController.h */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5E4A5001D16F97700F63762 /* LaunchScreen.storyboard in Resources */,
+				F5E4A5081D16FAD900F63762 /* 蝙蝠侠大战超人.mp4 in Resources */,
 				F5E4A4FD1D16F97700F63762 /* Assets.xcassets in Resources */,
 				F5E4A4FB1D16F97700F63762 /* Main.storyboard in Resources */,
 			);
@@ -309,6 +313,7 @@
 				F5E4A5061D16F97700F63762 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
