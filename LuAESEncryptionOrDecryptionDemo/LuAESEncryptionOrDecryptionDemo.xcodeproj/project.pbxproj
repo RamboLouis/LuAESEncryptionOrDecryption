@@ -13,7 +13,12 @@
 		F5E4A4FB1D16F97700F63762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E4A4F91D16F97700F63762 /* Main.storyboard */; };
 		F5E4A4FD1D16F97700F63762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E4A4FC1D16F97700F63762 /* Assets.xcassets */; };
 		F5E4A5001D16F97700F63762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E4A4FE1D16F97700F63762 /* LaunchScreen.storyboard */; };
-		F5E4A5081D16FAD900F63762 /* 蝙蝠侠大战超人.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F5E4A5071D16FAD900F63762 /* 蝙蝠侠大战超人.mp4 */; };
+		F5E4A5181D16FB6C00F63762 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E4A50D1D16FB6C00F63762 /* RNCryptor.m */; };
+		F5E4A5191D16FB6C00F63762 /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E4A50F1D16FB6C00F63762 /* RNCryptorEngine.m */; };
+		F5E4A51A1D16FB6C00F63762 /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E4A5111D16FB6C00F63762 /* RNDecryptor.m */; };
+		F5E4A51B1D16FB6C00F63762 /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E4A5131D16FB6C00F63762 /* RNEncryptor.m */; };
+		F5E4A51C1D16FB6C00F63762 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5E4A5151D16FB6C00F63762 /* Info.plist */; };
+		F5EBC6B41D185030005630C7 /* superman.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F5EBC6B31D185030005630C7 /* superman.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +32,20 @@
 		F5E4A4FC1D16F97700F63762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5E4A4FF1D16F97700F63762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5E4A5011D16F97700F63762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5E4A5071D16FAD900F63762 /* 蝙蝠侠大战超人.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "蝙蝠侠大战超人.mp4"; sourceTree = "<group>"; };
+		F5E4A50A1D16FB6C00F63762 /* RNCryptor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor+Private.h"; sourceTree = "<group>"; };
+		F5E4A50B1D16FB6C00F63762 /* RNCryptor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-Prefix.pch"; sourceTree = "<group>"; };
+		F5E4A50C1D16FB6C00F63762 /* RNCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptor.h; sourceTree = "<group>"; };
+		F5E4A50D1D16FB6C00F63762 /* RNCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptor.m; sourceTree = "<group>"; };
+		F5E4A50E1D16FB6C00F63762 /* RNCryptorEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptorEngine.h; sourceTree = "<group>"; };
+		F5E4A50F1D16FB6C00F63762 /* RNCryptorEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptorEngine.m; sourceTree = "<group>"; };
+		F5E4A5101D16FB6C00F63762 /* RNDecryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDecryptor.h; sourceTree = "<group>"; };
+		F5E4A5111D16FB6C00F63762 /* RNDecryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDecryptor.m; sourceTree = "<group>"; };
+		F5E4A5121D16FB6C00F63762 /* RNEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNEncryptor.h; sourceTree = "<group>"; };
+		F5E4A5131D16FB6C00F63762 /* RNEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNEncryptor.m; sourceTree = "<group>"; };
+		F5E4A5151D16FB6C00F63762 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E4A5161D16FB6C00F63762 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		F5E4A5171D16FB6C00F63762 /* RNCryptor iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor iOS.h"; sourceTree = "<group>"; };
+		F5EBC6B31D185030005630C7 /* superman.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = superman.mp4; path = "RNCryptor iOS/superman.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +78,9 @@
 		F5E4A4EF1D16F97700F63762 /* LuAESEncryptionOrDecryptionDemo */ = {
 			isa = PBXGroup;
 			children = (
-				F5E4A5071D16FAD900F63762 /* 蝙蝠侠大战超人.mp4 */,
+				F5E4A5091D16FB6C00F63762 /* RNCryptor */,
+				F5E4A5141D16FB6C00F63762 /* RNCryptor iOS */,
+				F5EBC6B31D185030005630C7 /* superman.mp4 */,
 				F5E4A4F31D16F97700F63762 /* AppDelegate.h */,
 				F5E4A4F41D16F97700F63762 /* AppDelegate.m */,
 				F5E4A4F61D16F97700F63762 /* ViewController.h */,
@@ -80,6 +100,33 @@
 				F5E4A4F11D16F97700F63762 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5E4A5091D16FB6C00F63762 /* RNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				F5E4A50A1D16FB6C00F63762 /* RNCryptor+Private.h */,
+				F5E4A50B1D16FB6C00F63762 /* RNCryptor-Prefix.pch */,
+				F5E4A50C1D16FB6C00F63762 /* RNCryptor.h */,
+				F5E4A50D1D16FB6C00F63762 /* RNCryptor.m */,
+				F5E4A50E1D16FB6C00F63762 /* RNCryptorEngine.h */,
+				F5E4A50F1D16FB6C00F63762 /* RNCryptorEngine.m */,
+				F5E4A5101D16FB6C00F63762 /* RNDecryptor.h */,
+				F5E4A5111D16FB6C00F63762 /* RNDecryptor.m */,
+				F5E4A5121D16FB6C00F63762 /* RNEncryptor.h */,
+				F5E4A5131D16FB6C00F63762 /* RNEncryptor.m */,
+			);
+			path = RNCryptor;
+			sourceTree = "<group>";
+		};
+		F5E4A5141D16FB6C00F63762 /* RNCryptor iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F5E4A5151D16FB6C00F63762 /* Info.plist */,
+				F5E4A5161D16FB6C00F63762 /* module.modulemap */,
+				F5E4A5171D16FB6C00F63762 /* RNCryptor iOS.h */,
+			);
+			path = "RNCryptor iOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +188,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5E4A5001D16F97700F63762 /* LaunchScreen.storyboard in Resources */,
-				F5E4A5081D16FAD900F63762 /* 蝙蝠侠大战超人.mp4 in Resources */,
 				F5E4A4FD1D16F97700F63762 /* Assets.xcassets in Resources */,
+				F5E4A51C1D16FB6C00F63762 /* Info.plist in Resources */,
+				F5EBC6B41D185030005630C7 /* superman.mp4 in Resources */,
 				F5E4A4FB1D16F97700F63762 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,8 +202,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5E4A51B1D16FB6C00F63762 /* RNEncryptor.m in Sources */,
 				F5E4A4F81D16F97700F63762 /* ViewController.m in Sources */,
+				F5E4A5181D16FB6C00F63762 /* RNCryptor.m in Sources */,
 				F5E4A4F51D16F97700F63762 /* AppDelegate.m in Sources */,
+				F5E4A5191D16FB6C00F63762 /* RNCryptorEngine.m in Sources */,
+				F5E4A51A1D16FB6C00F63762 /* RNDecryptor.m in Sources */,
 				F5E4A4F21D16F97700F63762 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

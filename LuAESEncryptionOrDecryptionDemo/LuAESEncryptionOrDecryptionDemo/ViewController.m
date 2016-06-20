@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "RNEncryptor.h"
+#import "RNDecryptor.h"
 
 @interface ViewController ()
 
@@ -16,8 +18,48 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self AESEncryptionOrDecryption];
 }
+
+- (void)AESEncryptionOrDecryption{
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"superman.mp4" ofType:nil];
+    
+    NSData *data = [NSData dataWithContentsOfFile:path];
+    
+    /** 1. Encryption before */
+    //NSData *data = [@"Data" dataUsingEncoding:NSUTF8StringEncoding];
+    NSError *error;
+    
+    NSString *password = @"123456";
+    
+    /** 2. Encryption after */
+    NSData *encryptedData = [RNEncryptor encryptData:data
+                                        withSettings:kRNCryptorAES256Settings
+                                            password:password
+                                               error:&error];
+    
+    
+    /** 3. Encryption to Sandbox */
+    NSString *homepath =NSHomeDirectory();
+    path = [homepath stringByAppendingPathComponent:@"xxxxx.mp4"];
+    
+    [encryptedData writeToFile:path atomically:YES];
+    NSLog(@"%@",NSHomeDirectory());
+//    /** 3. Decryption */
+//    NSData *decryptedData = [RNDecryptor decryptData:encryptedData
+//                                        withPassword:password
+//                                               error:&error];
+//    
+//    // Decryption desktop
+//    [decryptedData writeToFile:@"/Desktop/ooooo.mp4" atomically:YES];
+//    
+//
+
+
+
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
